@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #495E57;
+    --secondary-color: #F4CE14;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h2 {
+font-family: Markazi;
+}
+
+p {
+font-family: sans-serif;
+}
+
+.main {
+/* width: 60%; */
+margin: 0 auto;
+}
+
+/* Dist between each article */
+article {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+/* Dist between internal article components */
+/* article * {
+
+} */
+
+/* Addresses inline image alignment */
+#banner, #about {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#banner .centered {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#banner img {
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.text-container * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#banner .text-container > h1 {
+font-size: 90px;
+color: var(--secondary-color);
+}
+
+#about .text-container > h1 {
+    font-size: 70px;
+    color: black;
+}
+
+.text-container > h2 {
+font-size: 35px;
+color: white;
+font-weight: 100;
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+#banner .text-container > p {
+font-size: 25px;
+color: white;
+}
+
+#about .text-container > p {
+    font-size: 20px;
+    color: black;
+}
+
+#banner p {
+width: 70%;
+}
+
+.card-banner {
+display: flex;
+justify-content: space-between;
+}
+
+/* Since font size alters card component font size */
+.header h1 {
+font-size: 70px;
+}
+
+/* Since initial assignment applies to the following*/
+#about h1, #about h2, #about p {
+color: black;
+}
+
+#about {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#specials * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about p {
+width: 80%;
+}
+
+#about * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#banner {
+    background-color: var(--primary-color);
+}
+
+.centered {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#about img {
+    width: 400px;
+    border-radius: 20px;
+}

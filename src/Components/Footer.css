@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--secondary-color);
+}
+
+/* Addresses inline image alignment */
+.footer-centered {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--);
+}
+
+.footer-section h1 {
+    margin-bottom: 20px;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-centered img {
+    height: 120px;
+}
+
+Link {
+    list-style: none;
+    color: black;
+}
+
+.footer-centered .link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-centered .link:hover {
+    color: var(--primary-color);
+}
+
+.footer-centered ul {
+    list-style: none;
+}

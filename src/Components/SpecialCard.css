@@ -1,0 +1,43 @@
+
+
+.card * {
+    margin: 10px;
+}
+
+.header-container {
+    
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Markazi;
+}
+
+h2 {
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+p {
+    width: 80%;
+}
+
+.card {
+    background-color: var(--primary-color);
+    width: 29.04%;
+    height: 446px;
+    border: 3px solid black;
+    border-radius: 30px;
+    color: white;
+}
+
+.card img {
+    height: 160px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto;
+}

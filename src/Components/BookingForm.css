@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #495E57;
+    --secondary-color: #F4CE14;
+}
+
+
+/* default form style {
+    display: "grid";
+    maxWidth: "200px";
+    gap: "20px"
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form button {
+    display: block;
+    margin: 20px auto;
+}
+
+
+.text h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.text p {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.inputs label {
+    font-size: 20px;
+}
+
+.inputs input, .inputs select {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+}
+
+.inputGroup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+}
+
+.hoursGroup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hoursGroup h2 {
+    color: black;
+}
+
+.hoursGroup p {
+    display: inline;
+}

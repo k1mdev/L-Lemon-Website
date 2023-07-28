@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0 25px;
+}
+
+.navbar .link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .link:hover {
+    color: var(--secondary-color);
+}
+
+.navbar img {
+    height: 70px;
+}
